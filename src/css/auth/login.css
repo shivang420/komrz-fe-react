@@ -1,0 +1,187 @@
+.error{
+  font-size: large;
+}
+
+.signIn
+{
+  display: none;
+  max-width: 568px;
+width:100%;
+margin:5% auto;
+}
+.signIn.signUp
+{
+  display: block;
+}
+.signIn.sign-password
+{
+  display:none;
+}
+.signIn-container
+{
+  position:fixed;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  top:0px;
+  z-index:99;
+  width: 100%;
+  background-color: rgba(246,246,246,1);
+}
+.signIn__details
+{
+  width:100%;
+  padding:50px 60px 50px;
+  border-radius: 9px;	background-color: rgba(255,255,255,1);
+}
+.signIn__logo
+{
+  margin:auto;
+  height: 30px;	width: 140px;
+}
+.signIn__logo img
+{
+  width:100%;
+  height:100%;
+}
+.signIn__heading
+{ 
+    color: rgba(33,37,41,1); 
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.06px;
+    line-height: 28px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:30px;
+}
+.signIn__google
+{
+  width:100%;
+  padding:17px 17px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top:4px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.signIn__googleIcon
+{
+  width:24px;
+  height:24px;
+  margin-right:30px;
+}
+.signIn__google >span
+{
+  opacity: 0.56;	color: rgba(0,0,0,1);	font-size: 13px;	letter-spacing: -0.2px;	line-height: 20px;
+}
+
+.signIn__googleIcon img
+{
+  width:100%;
+  height:100%;
+}
+.signIn__bottom
+{
+margin-top:32px;
+}
+.signIn__bottom h2
+{	
+ font-weight:400;color: rgba(158,160,165,1); font-size: 16px;	letter-spacing: -0.05px;text-align:center;	line-height: 25px;
+}
+.signIn__bottom h2>span
+{
+  color: rgba(22,101,216,1);
+  font-weight: 700;
+  margin-left:4px;
+  cursor:pointer;
+}
+.popup__templateInput
+{
+  position: relative;
+  
+}
+.popup__templateInput p
+{
+  display: flex;
+    justify-content: space-between;
+	color: rgba(0,0,0,0.5);		font-size: 13px;	letter-spacing: -0.2px;	line-height: 20px;
+}
+.popup__templateInput .sortBy
+{
+  height:52px;
+
+}
+.popup__templateInput .sortBy__header
+{
+  padding: 16px 10px;
+}
+.popup__templateInput .sortBy__dropdown
+{
+  top: 48px;
+}
+.popup__templateInput p>span
+{
+color: rgba(0,100,254,1);	
+cursor: pointer;
+}
+.popup__templateInputBox
+{
+  width:100%;
+  padding:15px 10px;
+  color: rgb(0,0,0);font-size: 13px;	line-height: 20px;
+  border: 1px solid rgba(237,237,237,1);	border-radius: 4px;	background-color: rgba(255,255,255,1);
+}
+.popup__templateInputBox:focus
+{
+  border: 1px solid rgba(0,100,254,1);	border-radius: 4px;	background-color: rgba(252,252,255,1);
+
+}
+.popup__templateInput .sortBy__dropdown li 
+{
+  padding-left:11px;
+  color: rgba(0,0,0,0.4);		font-size: 13px;	letter-spacing: -0.2px;	line-height: 20px;
+}
+.popup__templateInput .sortBy__dropdown li:hover
+{
+  color: rgba(0,0,0,0.9);	
+}
+.popup__templateInput .subInfo
+{
+  margin:6px 0px 20px 0px;
+}
+.flexRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width:148px;
+  height: 50px;
+  padding: 0px 14px;
+  border-radius: 4px;
+  background-color: #2DCA73;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 10px;
+  z-index:14;
+}
+.btn__upload
+{
+  background-color: #0064fe;
+  border: 1px solid #0064fe;
+  padding: 0px 24px;
+}
+.btn__transperant
+{
+  color:#0064fe;
+  background-color: transparent;
+  border:0px;
+  padding:0px 10px 0px;
+}

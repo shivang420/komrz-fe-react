@@ -1,0 +1,65 @@
+.addNew .btn .iconify {
+    height: 26px;
+    width: 26px;
+    margin-right: 6px;
+  }
+  .btn__primary {
+    
+    border: 1px solid #2DCA73;
+  }
+  .btn__primary:hover
+  {
+    background-color: rgb(37, 172, 97);
+    border: 1px solid rgb(37, 172, 97);
+  }
+  .addNew__dropdownList
+{
+  padding:20px 24px;
+  display:none;
+}
+.addNew__dropdownList.active
+{
+  display:block;
+}
+.addNew__dropdown.active
+{
+  height: 212px;
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 99;
+}
+.addNew__dropdown::after{
+  position: absolute;
+  content: '';
+  display: block;  
+  position: absolute;
+  right: 14px;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #fff;
+}
+.addNew__dropdown ListGroupItem
+{
+  display: flex;
+ 
+  align-items: center;
+ color: rgba(24,12,12,0.5);font-size: 12px;	font-weight: 500;	line-height: 18px;
+ margin-bottom: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.addNew__dropdown ListGroupItem:hover
+{
+  color: rgba(24,12,12,1);
+}
+.addNew__dropdown ListGroupItem:last-child
+{
+ margin-bottom: 0px;
+
+}
+.addNew__dropdown ListGroupItem>svg
+{
+  margin-right:3px;
+}
