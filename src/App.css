@@ -1,13 +1,36 @@
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    align-self: end;
+    font-family: "Poppins", sans-serif;
+}
+
+
 .mainContent {
   float:right;
   background-color: #f6f6f6;
   padding: 24px 50px;
   min-height: 100vh;
   width: 100%;
+  transition: width .5s ease;
+
 }
-.mainContainer{
-    display: flex;
+
+.sidebar{
+  /* position: fixed; */
+  /* overflow: scroll; */
+  font-family: "Poppins", sans-serif;
 }
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*NavBar Logos*/
+
 .sidebar_logo > img{
     width: 80%;
     padding: 30px;

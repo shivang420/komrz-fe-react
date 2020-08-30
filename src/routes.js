@@ -3,8 +3,8 @@ import InsertInvitationOutlinedIcon from '@material-ui/icons/InsertInvitationOut
 import PostAddOutlinedIcon from '@material-ui/icons/PostAddOutlined';
 import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 
-import Contracts from './Components/SideBar/contract.js';
-import Events from './Components/SideBar/events.js';
+import Contracts from './Components/SideBar/Contract.js';
+import Events from './Components/SideBar/Events.js';
 
 const dashboardRoutes = [
   {
